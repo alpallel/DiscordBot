@@ -28,7 +28,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 # ===== Google Drive API setup =====
 SCOPES = ['https://www.googleapis.com/auth/drive']
 SERVICE_ACCOUNT_FILE = 'service_account.json'
-PARENT_FOLDER_ID = "1a8rNFWfAARWZlJK2Cmg2tV1y8di8bUHl" # Gallery drive folder ID
+PARENT_FOLDER_ID = os.getenv("GDRIVE_ID") # Gallery drive folder ID
 
 credentials = service_account.Credentials.from_service_account_file(
   SERVICE_ACCOUNT_FILE, scopes=SCOPES)

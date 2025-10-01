@@ -1,9 +1,10 @@
-﻿# discord-bot
+﻿# DiscordBot
 
 REQUIRED:
 - ".env" file contianing:
   DISCORD_TOKEN=#YOUR DISCORD BOT TOKEN
   GDRIVE_ID=#GDRIVE UPLOAD FEATURE FOLDER DESTINATION (Optional)
+
 
 OPTIONAL:
 - for the google drive feature to work, set up a service account for uploading files to google drive and rename the .json file as "service_account.json"
