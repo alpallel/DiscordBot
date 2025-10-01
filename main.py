@@ -17,7 +17,7 @@ import shutil
 from googleapiclient.discovery import build
 from google.oauth2 import service_account
 from googleapiclient.http import MediaFileUpload
-
+from time import sleep
 
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -567,6 +567,7 @@ async def on_message(msg):
     ]
     for ancaman in ancaman_list:
       await msg.author.send(ancaman)
+      sleep(1)
 
   if msg.guild is None:
     if "buzzer" in msg.content.lower():
