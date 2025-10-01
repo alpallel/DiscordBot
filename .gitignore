@@ -1,4 +1,4 @@
-
+.env
 service_account.json
 discord.log
 user_warnings.db
