@@ -2,8 +2,8 @@
 
 REQUIRED:
 - ".env" file contianing: <br />
-  DISCORD_TOKEN=#YOUR DISCORD BOT TOKEN <br />
-  GDRIVE_ID=#GDRIVE UPLOAD FEATURE FOLDER DESTINATION (Optional)
+  DISCORD_TOKEN= #YOUR DISCORD BOT TOKEN <br />
+  GDRIVE_ID= #GDRIVE UPLOAD FEATURE FOLDER DESTINATION (Optional)
 <br />
 
 OPTIONAL:
@@ -11,4 +11,5 @@ OPTIONAL:
 - https://console.cloud.google.com/iam-admin/serviceaccounts
 - make a google drive folder and get the Folder ID
 - go to ".env" file and input your google drive ID in the "GDRIVE_ID"
+
 
