@@ -486,7 +486,7 @@ async def cek_dosa(interaction: discord.Interaction, user: discord.Member):
 
 
 
-# TODO
+# FIXME
 download_images_toggle = False
 # start downloading images after this command
 @bot.tree.command(name="toggle_download_images", description="toggle downloading images after this command")
@@ -580,22 +580,3 @@ async def on_message(msg):
 
 # Run the bot
 bot.run(token_dc, log_handler=handler, log_level=logging.DEBUG)
-
-
-
-
-
-# ===============================================================================
-
-
-
-
-
-
-
-
-
-
-
-
-
